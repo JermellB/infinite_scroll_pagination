@@ -108,3 +108,13 @@ For more usage examples, please take a look at our [cookbook](https://pub.dev/pa
 <p align="center">
 	<img src="https://raw.githubusercontent.com/EdsonBueno/infinite_scroll_pagination/master/docs/assets/api-diagram.png" alt="API Diagram" />
 </p>
+
+## Linux Build
+### update win32:
+    - `flutter pub upgrade win32`
+### add desktop support:
+    - `cd example`
+    - `flutter create --platforms=linux .`
+### run it:
+    - `flutter run -d linux`
+
